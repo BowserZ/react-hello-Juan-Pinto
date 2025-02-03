@@ -10,3 +10,15 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+{/*style={{ width: '90%' }} para el container*/}
+.autumn-seattle, .winter-seattle, .spring-seattle {
+    height: 18.75rem;
+    object-fit: cover;
+}
+
+body {
+    background-image: url('https://soyfan.com.uy/wp-content/uploads/2023/04/Leo-Dicaprio-Meme.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}

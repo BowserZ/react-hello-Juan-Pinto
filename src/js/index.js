@@ -9,5 +9,23 @@ import "../styles/index.css";
 import Home from "./component/home.jsx";
 
 //render your react application
-ReactDOM.createRoot(document.getElementById('app')).render(<Home/>);
+const root = ReactDOM.createRoot(document.getElementById('root'));
+
+import Container from "./component/container.jsx";
+import Navbar from "./component/navBar.jsx";
+import Card from "./component/card.jsx";
+import Footer from "./component/footer.jsx";
+root.render(
+  <React.StrictMode>
+    <div className="d-flex flex-column min-vh-100">
+      <Navbar />
+      <Container />
+      <Card />
+      <Footer />
+    </div>
+  </React.StrictMode>
+);
+
+
+
 
